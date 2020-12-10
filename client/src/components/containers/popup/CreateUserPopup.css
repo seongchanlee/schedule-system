@@ -1,0 +1,32 @@
+.select-user .ui.select-btn {
+  width: 50%;
+  background-color: #73AACE;
+  color: #FFFFFF;
+  margin: 1rem;
+  font-size: 2rem;
+
+}
+
+.select-user .ui.select-btn:focus{
+  background-color: #AABA32;
+  color: #FFFFFF;
+}
+
+.select-user .ui.select-btn:hover{
+  background-color: #AABA32;
+  color: #FFFFFF;
+}
+
+
+#create-user .user-field {
+  margin-top: 1rem;
+}
+
+.createUserPopupModal i.icon.close:before {
+  cursor: pointer;
+  position: absolute;
+  left: -2.5rem;
+  top: 4rem;
+  color: black;
+}
+

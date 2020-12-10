@@ -1,0 +1,82 @@
+/* Calendar Container */
+.ui.grid.calendarContainer .appointmentCalendar {
+  padding-right: 3rem;
+  height: 46rem;
+}
+
+.ui.grid.calendarContainer .calendarPlaceholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55rem;
+  box-shadow: none;
+  border: none;
+}
+
+.ui.header.calendarUser.userName {
+  font-size: 3rem;
+}
+
+.row.calendarUser.userTypeRow {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.placeholderImage {
+  width: 180px;
+  height: 180px;
+}
+
+#placeholderText {
+  color: #757575;
+  padding-top: 20px;
+  width: 250px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.rbc-toolbar-label {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+@media print {
+  .rbc-event-label {
+    color: black !important;
+    font-size: 1rem;
+  }
+
+  .rbc-day-slot.rbc-time-column.rbc-now.rbc-today div.rbc-events-container {
+    margin-right: 0;
+  }
+
+  .rbc-event-content {
+    color: black !important;
+    font-size: 1.25rem;
+  }
+
+  .ui.equal.width.grid.calendarContainer {
+    width: 100%;
+    margin: 0;
+  }
+
+  .column.calendarAppointmentContainer {
+    padding: 0px;
+  }
+
+  .ui.grid.calendarContainer .appointmentCalendar {
+    height: 1100px;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .non-printable {
+    display: none !important;
+  }
+}
+
+/* Calendar width css*/
+.ui.grid.calendarContainer {
+  min-width: 900px;
+}

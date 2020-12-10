@@ -1,0 +1,41 @@
+.loginFormBackground {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-shadow: none;
+  border: none;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23c6d451' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23889138' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2375cc70' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%234e8749' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2300bd94' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2303785d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2300a9af' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23006668' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%230092b7' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23005266' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%232f78a9' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23183e57' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.loginFormWrapper {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  transform: translate(0, -4rem);
+}
+
+.loginLogo {
+  margin-bottom: 1.3rem;
+  transform: scale(1.1);
+}
+
+.loginForm {
+  width: 30rem; 
+  margin: 0rem 0.5rem;
+}
+
+.loginField {
+  border-bottom: 1px solid #CCC;
+}
+
+.ui.primary.button.loginButton {
+  margin-top: 2rem;
+  height: 50px;
+  font-size: 1.2em;
+}

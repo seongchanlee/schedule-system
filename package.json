@@ -1,0 +1,59 @@
+{
+  "name": "schedule-system",
+  "version": "1.0.0",
+  "description": "Schedule Management System for Coastal Health G.F Strong Rehabilitation Centre",
+  "main": "server.js",
+  "scripts": {
+    "server-dev": "nodemon server.js",
+    "test": "mocha --exit",
+    "build": "bash scripts/build.sh",
+    "deploy": "bash scripts/deploy.sh",
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:cpsc319-2018w2/coastal-health/dokdo/schedule-system.git"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "client/*"
+    ],
+    "delay": "2500"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@app": "./app",
+    "@routes": "./app/routes",
+    "@client": "./client",
+    "@config": "./config",
+    "@test": "./test"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "database-cleaner": "^1.3.0",
+    "db-migrate": "^0.11.5",
+    "db-migrate-mysql": "^1.1.10",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "ical-generator": "^1.6.0",
+    "module-alias": "^2.1.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "nodemailer": "^5.1.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.9",
+    "sinon": "^7.2.7"
+  }
+}

@@ -1,0 +1,7 @@
+.calendarPopupModal i.icon.close:before {
+  cursor: pointer;
+  position: absolute;
+  left: -2.5rem;
+  top: 4rem;
+  color: black;
+}

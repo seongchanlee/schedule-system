@@ -1,0 +1,152 @@
+/* Individual Patient Report Modal Container*/
+div.ui.scrolling.modal.transition.visible.active.individualReportContainer {
+  margin: 0;
+}
+
+/* Individual Patient Report Modal Header*/
+.ui.container.patientSummaryContainer .patientSummary .patientDetailContainer div .patientSummaryPatientName {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: -2px;
+  font-weight: 700;
+}
+
+.patientSummaryContainer .ui.grid.patientSummary .patientDetailContainer * {
+  font-size: 1rem;
+}
+
+.patientSummaryContainer .ui.grid.patientSummary .patientDetailContainer .patientDetailDescription {
+  font-weight: bold;
+}
+
+.patientSummaryContainer .ui.grid.patientSummary .patientDetailContainer .patientDetailValue {
+  font-weight: 400;
+}
+
+.patientSummaryContainer .ui.grid.patientSummary .row.patientDetailContainer {
+  padding: 0 0 8px 0;
+}
+
+.ui.grid.patientSummary {
+  margin-top: 0.5rem;
+}
+.patientSummaryContainer {
+  margin-bottom: 1rem;
+}
+.patientStatModalRow .statDateFilterColumn .ui.form.patientStatDateContainer .fields {
+  margin: 0;
+}
+
+.patientStatModalRow .statDateFilterColumn .ui.form.patientStatDateContainer .fields .ui.input .ui.red.pointing.basic.label {
+  width: 8rem;
+}
+
+.patientStatDateContainer .patientStatFormInput .input div .patientStateDateInput > .ui.input > i.calendar.icon {
+  display: none;
+}
+
+.statDateFilterColumn.patientStatModalColumn .ui.form.patientStatDateContainer .statDateSeparator {
+  line-height: 5.7rem;
+  height: 1rem;
+}
+
+.statDateFilterColumn.patientStatModalColumn .ui.form.patientStatDateContainer {
+  margin-top: 4.8rem;
+  bottom: 0;
+}
+
+.patientStatDateContainer .patientStatFormInput .input div .patientStateDateInput > .ui.input > input {
+  width: 8rem;
+  height: 2.3rem;
+  border-radius: 0.5rem;
+  background-color: #aaba32;
+  text-align: center;
+  color: #fefefe;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.patientStatModalHeader .ui.grid .patientStatModalRow .statDateFilterColumn .patientStatDateContainer {
+  float: right;
+}
+
+.patientStatModalHeader .ui.grid .patientStatModalRow .statDateFilterColumn.patientStatModalColumn .patientStatDateContainer div.fields .patientStatFormInput > div.ui.input {
+  display: block;
+  text-align: center;
+}
+
+.patientStatModalHeader .ui.grid .patientStatModalRow .statDateFilterColumn.patientStatModalColumn .patientStatDateContainer div.fields .patientStatFormInput > div.ui.input > label.patientStatDateLabel{
+  line-height: 25px;
+  font-size: .92857143em;
+  font-weight: 700;
+}
+
+div.ui.modal > div.patientStatModalHeader.header {
+  line-height: 1rem;
+}
+
+/* Individual Patient Report Modal Content*/
+.ui.grid.patientStatisticContainer > .row.patientStatisticRow .patientStatisticColumn > p.patientStatisticValue {
+  font-size: 5rem;
+  margin-bottom: 0px;
+  font-weight: 300;
+  color: #0077b5;
+  text-align: center;
+}
+
+.ui.grid.patientStatisticContainer > .row.patientStatisticRow .patientStatisticColumn > p.patientStatisticDescription {
+  text-align: center;
+  font-weight: bold;
+}
+
+.patientContentContainer .ui.container.patientReportContentContainer {
+  margin: 0.5rem 0 3rem 0;
+}
+
+.patientContentContainer .ui.header.patientReportModalContentHeader {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+/* Individual Patient report Modal Action Container*/
+div.ui.modal > div.actions.individualReportActionContainer {
+  padding: 0.75rem 1rem;
+}
+
+@media print {
+  .printReportTableContainer {
+    display: block !important;
+    width: auto;
+    height: auto;
+  }
+
+  .printReportTableDiv {
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+  }
+
+  .printReportTableTitle {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .ui.page.modals.dimmer.transition.visible.active {
+    display: none !important;
+    opacity: 0;
+  }
+
+  .printReportTableTitle.patientName {
+    font-size: 2.25rem;
+  }
+
+  .pagebreak {
+    page-break-after: always;
+  }
+
+  .non-printable {
+    display: none !important;
+  }
+}

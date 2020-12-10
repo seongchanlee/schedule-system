@@ -1,0 +1,40 @@
+.ui.card.patientCard {
+  margin: 0 1.5rem 2.3rem 0;
+  width: 14rem;
+  height: 8.5rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+}
+
+.ui.grid.patientCardGrid {
+  margin: 2rem 0 0 0;
+}
+
+.ui.card.patientCard > .content > .header.patientCardHeader {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #212121;
+}
+
+.ui.card.patientCard > .content > .description.patientCardDescription {
+  /*TODO: Will need to test with IE 11 as inline-flex may not be supported*/
+  display: inline-flex;
+  position: absolute;
+  bottom: 15px;
+}
+
+div.description.patientCardDescription > .ui.circular.empty.label.patientCategoryLabel {
+  margin: 3px 8px 0 0;
+}
+
+div.description.patientCardDescription > .ui.circular.empty.label.patientCategoryLabel.categoryOne {
+  background-color: #e76f51;
+}
+
+div.description.patientCardDescription > .ui.circular.empty.label.patientCategoryLabel.categoryTwo {
+  background-color: #e9c46a;
+}
+
+div.description.patientCardDescription > .ui.circular.empty.label.patientCategoryLabel.categoryThree {
+  background-color: #2a9d8f;
+}

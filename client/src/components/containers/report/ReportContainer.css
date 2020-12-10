@@ -1,0 +1,37 @@
+.ui.card.categoryCard {
+  margin: 0 1.5rem 2.3rem 0;
+  width: 14rem;
+  height: 8rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  position: relative;
+}
+
+.ui.card.categoryCard#categoryOne {
+  background-color: #e76f51;
+}
+
+.ui.card.categoryCard#categoryTwo {
+  background-color: #e9c46a;
+}
+
+.ui.card.categoryCard#categoryThree {
+  background-color: #2a9d8f;
+}
+
+.ui.card.categoryCard > div.content > div.header {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #212121;
+}
+
+.ui.grid.categoryCardGrid {
+  margin: 2rem 0 0 0;
+}
+
+.ui.container.reportSubContainer.reportPatientListContainer > div.input.searchInput {
+  width: 45rem;
+}
+
+div.ui.container.reportSubContainer {
+  margin-bottom: 1.5rem;
+}

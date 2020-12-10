@@ -1,0 +1,29 @@
+{
+  "defaultEnv": {"ENV": "NODE_ENV"},
+  "development": {
+    "driver": "mysql",
+    "database": "schedule_system_development",
+    "host": {"ENV": "DB_HOST"},
+    "user": {"ENV": "DB_USERNAME"},
+    "password": {"ENV": "DB_PASSWORD"},
+    "multipleStatements": true
+  },
+
+  "test": {
+    "driver": "mysql",
+    "host": {"ENV": "DB_HOST"},
+    "database": "database_cleaner",
+    "user": {"ENV": "DB_USERNAME"},
+    "password": {"ENV": "DB_PASSWORD"},
+    "multipleStatements": true
+  },
+
+  "production": {
+    "driver": "mysql",
+    "host": {"ENV": "DB_HOST"},
+    "database": "schedule_system_production",
+    "user": {"ENV": "DB_USERNAME"},
+    "password": {"ENV": "DB_PASSWORD"},
+    "multipleStatements": true
+  }
+}

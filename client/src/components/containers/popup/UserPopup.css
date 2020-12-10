@@ -1,0 +1,22 @@
+#userPopup_confirm .actions .ui.primary.button, #dischargePatientPopup_confirm .actions .ui.primary.button{
+  background-color: #db2828;
+  color: #FFFFFF;
+}
+
+#userPopup_confirm .actions .ui.primary.button:hover, #dischargePatientPopup_confirm .actions .ui.primary.button:hover{
+  background-color: #d01919;
+  color: #FFFFFF;
+}
+
+#userPopup_confirm .content, #dischargePatientPopup_confirm .content  {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.userPopupModal i.icon.close:before {
+  cursor: pointer;
+  position: absolute;
+  left: -2.5rem;
+  top: 4rem;
+  color: black;
+}

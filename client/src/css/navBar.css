@@ -1,0 +1,45 @@
+.navbar {
+  height: 80px;
+  box-shadow: 0 0.25rem 0.75rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.mainLogo {
+  width: 12rem;
+  height: 3.5rem;
+  object-fit: contain;
+}
+
+.menuUserIcon {
+  color: #2f78a9;
+  padding: 0 1.05714286em 0 0.7em;
+}
+
+.ui.borderless.navbar.menu {
+  margin-bottom: 2rem;
+}
+
+.ui.borderless.navbar.menu .navbar-logo-item:hover {
+  background: #ffffff;
+}
+
+.ui.borderless.navbar.menu .navbar-left-item {
+  color: #757575;
+  font-size: 1.2em;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  border-bottom: 3px solid transparent;
+}
+
+.ui.borderless.navbar.menu .navbar-left-item:hover {
+  color: #2f78a9;
+  background: #ffffff;
+  border-bottom: 3px solid #2f78a9;
+}
+
+.ui.borderless.navbar.menu .active.navbar-left-item {
+  font-weight: bold;
+  color: #2f78a9;
+  background: #ffffff;
+  border-bottom: 3px solid #2f78a9;
+}

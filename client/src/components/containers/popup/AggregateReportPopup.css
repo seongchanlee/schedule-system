@@ -1,0 +1,89 @@
+/* Aggregate Report Header*/
+h1.ui.header.summaryHeader {
+  line-height: 2em;
+  font-size: 3rem;
+}
+
+.ui.form.aggReportFormContainer >.field.aggReportFormField {
+  text-align: center;
+}
+
+.ui.form.aggReportFormContainer > .field.aggReportFormField > div > .field.aggReportYearInput > .ui.input {
+  padding: 0 0.5em;
+}
+
+.ui.form.aggReportFormContainer > .field.aggReportFormField > div > .field.aggReportYearInput > .ui.input > i {
+  display: none;
+}
+
+.ui.form.aggReportFormContainer > .field.aggReportFormField > div > .field.aggReportYearInput > .ui.input > input {
+  width: 8rem;
+  margin-bottom: 1.2rem;
+  height: 2.3rem;
+  border-radius: 0.5rem;
+  background-color: #aaba32;
+  text-align: center;
+  color: #fefefe;
+  font-weight: 500;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+/* Aggregate Report Content*/
+.aggModalContentContainer .aggReportContentContainer {
+  margin: 0.5rem 0 3rem 0;
+}
+
+.aggModalContentContainer .ui.container.aggReportContentContainer .aggReportModalContentHeader {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.ui.grid.aggStatisticContainer > .row.aggStatisticRow .aggStatisticColumn > p.aggStatisticValue {
+  font-size: 5rem;
+  margin-bottom: 0px;
+  font-weight: 300;
+  color: #0077b5;
+  text-align: center;
+}
+
+.ui.grid.aggStatisticContainer > .row.aggStatisticRow .aggStatisticColumn > p.aggStatisticDescription {
+  text-align: center;
+}
+
+/**/
+div.ui.modal > div.actions.aggReportModalActionContainer {
+  padding: 0.75rem 1rem;
+}
+
+@media print {
+  .printReportTableContainer {
+    display: block !important;
+    width: auto;
+    height: auto;
+  }
+
+  .printReportTableDiv {
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+  }
+
+  .printReportTableTitle {
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+
+  .printReportTableTitle.categoryName {
+    font-size: 2.25rem;
+  }
+
+  .ui.page.modals.dimmer.transition.visible.active {
+    display: none !important;
+    opacity: 0;
+  }
+
+  .non-printable {
+    display: none !important;
+  }
+}
