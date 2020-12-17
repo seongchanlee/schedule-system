@@ -2,6 +2,10 @@
 
 This repository will hold the source code for the schedule system for Coastal Health - GF Strong as part of the CPSC 319 Software Engineering Project course.
 
+## Disclaimer
+This was a group project. I moved it from private repo that was managed by the course staff.
+My contribution to this project was: backend portion of report module and database management.
+
 ## Setup Guide
 ### Node Setup
 Node version: 8.15.0 (lts/carbon)
